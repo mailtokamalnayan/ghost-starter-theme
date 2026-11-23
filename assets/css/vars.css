@@ -2,7 +2,6 @@
 /* ---------------------------------------------------------- */
 
 :root {
-
     /* Colours */
     --color-primary: var(--ghost-accent-color, #3eb0ef);
     --color-base: #131313;
@@ -12,13 +11,16 @@
     --color-error: #f05230;
 
     /* Fonts */
-    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
     --font-serif: Georgia, Times, serif;
     --font-mono: Menlo, Courier, monospace;
     --font-light: 100;
     --font-normal: 400;
-    --font-bold: 700;
-    --font-heavy: 800;
+    --font-bold: 500;
+
+    --small-text: 0.875em;
 
     /* Breakpoints */
     --xlarge: 1680px;
@@ -31,5 +33,4 @@
     --height: 4rem;
     --margin: 2rem;
     --radius: 0.5rem;
-
 }

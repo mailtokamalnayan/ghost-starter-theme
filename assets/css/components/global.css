@@ -18,8 +18,8 @@ body {
     padding: 0;
     color: #464646;
     font-family: var(--font-sans-serif);
-    font-size: 1.5rem;
-    line-height: 1.6em;
+    font-size: calc(1.5rem + 0.25vw);
+    line-height: 1.5;
     font-weight: 400;
     font-style: normal;
     background: #fff;
@@ -27,7 +27,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 
 p,
 ul,
@@ -143,26 +142,15 @@ h5,
 h6 {
     margin: 0;
     line-height: 1.15em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 h1 {
-    font-size: 4.6rem;
-    letter-spacing: -0.5px;
-}
-@media (max-width: 500px) {
-    h1 {
-        font-size: 2.7rem;
-    }
+    font-size: calc(1.35em + 0.55vw);
 }
 
 h2 {
-    font-size: 3.6rem;
-}
-@media (max-width: 500px) {
-    h2 {
-        font-size: 2.2rem;
-    }
+    font-size: calc(1em + 0.2vw);
 }
 
 h3 {
